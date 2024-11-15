@@ -1,0 +1,162 @@
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    background-color: #091057;
+    color: #DBD3D3;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    text-align: center;
+}
+
+h1{
+    font-family: "Sacramento", cursive;
+    font-size: 9rem;
+    margin: 100px auto 0 auto;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 20px;
+}
+
+.top-container{
+    position: relative;
+    padding: 10% 0 10% 0;
+}
+
+.top-moon{
+    position: absolute;
+    right: 150px;
+
+}
+
+.bottom-moon{
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    transform: rotate(180deg);
+}
+.title-text{
+    font-family: "Montserrat";
+    
+}
+
+.apostrophe{
+    color: #EC8305;
+}
+
+
+.middle-container{
+    margin: 100px;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.intro{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    border: dotted 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.skill-grid{
+    display: grid;
+    width: 50%;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 100px auto 0 auto;
+    text-align: left;
+    line-height: 1.5;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.developer-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photographer-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contact-message{
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.btn{
+    background-color: #EC8305;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+    text-decoration: none;
+    color: #DBD3D3;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #024CAA;
+    transition: 0.2s ease;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #DBD3D3;
+}
+
+.bottom-container{
+    background-color: #EC8305;
+    padding: 50px 0 30px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color:#DBD3D3;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.2s ease;
+    font-size: 20px;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color:#091057;
+    transition: 0.2s ease;
+}
+
+.copyright{
+    font-size: 1.75rem;
+    padding: 10px 0 20px;
+    font-weight: 700;
+}
