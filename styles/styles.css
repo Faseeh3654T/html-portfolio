@@ -239,6 +239,7 @@ hr{
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 4rem;
+        margin: 70px auto;
     }
 
     h2 {
@@ -250,7 +251,7 @@ hr{
     }
 
     .bottom-moon {
-        top: 250px;
+        top: 220px;
     }
 
     .profile-pic {
