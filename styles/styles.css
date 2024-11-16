@@ -160,3 +160,133 @@ hr{
     padding: 10px 0 20px;
     font-weight: 700;
 }
+
+/*Making the stylesheet mobile responsive*/
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .top-container {
+        padding: 20% 0 10%;
+    }
+
+    .top-moon, .bottom-moon {
+        width: 80px; /* Adjust moon size for smaller screens */
+        position: absolute;
+    }
+
+    .top-moon {
+        right: 50px;
+    }
+
+    .bottom-moon {
+        left: 50px;
+        top: 300px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .skill-grid {
+        width: 90%;
+        grid-template-columns: 1fr; /* Stack items vertically */
+        text-align: center; /* Center-align text */
+    }
+
+    .developer-pic, .photographer-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-message {
+        width: 90%;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .footer-link {
+        font-size: 18px;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .top-moon, .bottom-moon {
+        width: 60px; /* Further adjust moon size for small screens */
+    }
+
+    .bottom-moon {
+        top: 250px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .intro {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .skill-grid {
+        width: 100%;
+        text-align: center;
+    }
+
+    .developer-pic, .photographer-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-message {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .copyright {
+        font-size: 1.25rem;
+    }
+}
